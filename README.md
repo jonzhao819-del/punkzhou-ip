@@ -1,5 +1,8 @@
 # 朋克周 · IP文案
 
+**在线地址：** https://jonzhao819-del.github.io/punkzhou-ip/  
+**GitHub：** https://github.com/jonzhao819-del/punkzhou-ip
+
 双窗口阅读站。两篇文章各自在一个可独立滚动的窗口里，可展开为沉浸阅读；桌面端同屏双窗，手机端上下排列并保留窗口标识。
 
 ## 本地预览
