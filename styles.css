@@ -920,7 +920,7 @@ main {
   display: inline-block;
   margin-left: 2px;
   font-family: var(--body);
-  font-size: 0.46em;
+  font-size: 0.58em;
   line-height: 1;
   letter-spacing: 0;
   transform: translateY(0.1em);
@@ -1663,8 +1663,22 @@ body.has-focus .focus-hint {
     overflow: hidden;
   }
 
+  .presence-track {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 12px;
+  }
+
   .presence-item {
-    padding-right: 8px;
+    padding-right: 12px;
+  }
+
+  .presence-item:nth-child(2n) {
+    border-right: 0;
+    padding-right: 12px;
+  }
+
+  .presence-item:last-child {
+    padding-right: 12px;
   }
 
   .presence-item strong {
