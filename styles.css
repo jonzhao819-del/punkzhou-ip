@@ -1632,10 +1632,6 @@ body.has-focus .focus-hint {
     font-size: 12px;
   }
 
-  .article-kicker span:last-child {
-    display: none;
-  }
-
   .article-title,
   .reader-window--ban .article-title {
     margin: 13px 0 16px;
