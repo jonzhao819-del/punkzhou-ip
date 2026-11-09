@@ -1,4 +1,4 @@
-# 朋克周 · IP文案
+# 科技、AI、IP文案履历
 
 **在线地址：** https://jonzhao819-del.github.io/punkzhou-ip/  
 **GitHub：** https://github.com/jonzhao819-del/punkzhou-ip

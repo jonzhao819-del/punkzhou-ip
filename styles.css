@@ -44,7 +44,7 @@
   --display: "Smiley Sans", "Noto SC", "PingFang SC", sans-serif;
   --mono: "Plex Mono", "SFMono-Regular", Consolas, monospace;
   --topbar-h: 62px;
-  --hero-h: clamp(250px, 30vh, 320px);
+  --hero-h: clamp(290px, 33vh, 340px);
   --focus: var(--fish);
 }
 
@@ -316,13 +316,20 @@ main {
 }
 
 .wordmark-name {
-  display: block;
+  display: flex;
+  flex-direction: column;
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(86px, 11.8vw, 184px);
+  font-size: clamp(52px, 5.2vw, 94px);
+  line-height: 1.05;
   letter-spacing: -0.035em;
-  white-space: nowrap;
+  white-space: normal;
   color: var(--ink);
+}
+
+.wordmark-line {
+  display: block;
+  white-space: nowrap;
 }
 
 .wordmark-label {
@@ -1265,6 +1272,7 @@ body.has-focus .focus-hint {
   flex-basis: 36px;
 }
 
+
 /* Entrance: content is visible without animation; motion only adds arrival. */
 @media (prefers-reduced-motion: no-preference) {
   .hero-copy > * {
@@ -1419,7 +1427,7 @@ body.has-focus .focus-hint {
   }
 
   .wordmark-name {
-    font-size: clamp(70px, 16vw, 126px);
+    font-size: clamp(50px, 13.5vw, 110px);
   }
 
   .wordmark-label {
@@ -1511,6 +1519,7 @@ body.has-focus .focus-hint {
     display: none;
   }
 
+
   .focus-toggle {
     display: none !important;
   }
@@ -1571,6 +1580,10 @@ body.has-focus .focus-hint {
   .wordmark-label {
     font-size: 12px;
     letter-spacing: 0.14em;
+  }
+
+  .wordmark-label {
+    display: none;
   }
 
   .hero-subtitle {
@@ -1722,7 +1735,7 @@ body.has-focus .focus-hint {
 
 @media (max-height: 820px) and (min-width: 1081px) {
   :root {
-    --hero-h: 210px;
+    --hero-h: 230px;
     --topbar-h: 54px;
   }
 
@@ -1732,7 +1745,7 @@ body.has-focus .focus-hint {
   }
 
   .wordmark-name {
-    font-size: clamp(78px, 9.8vw, 146px);
+    font-size: clamp(50px, 5vw, 66px);
   }
 
   .hero-subtitle {
