@@ -4,14 +4,14 @@
 
 ## 最省事的方式
 
-1. 打开 GitHub，新建 repository，名称例如 `punkzhou-ip`，可见性选 **Public**。
+1. 打开 GitHub，新建 repository，名称例如 `wenan-IP`，可见性选 **Public**。
 2. 在仓库首页点 **Add file → Upload files**，把本目录的全部文件拖进去，提交。
 3. 进入 **Settings → Pages**：
    - Source: **Deploy from a branch**
    - Branch: **main**
    - Folder: **/ (root)**
 4. 保存后等待 30–60 秒。页面地址会显示在 Pages 设置顶部：
-   `https://jonzhao819-del.github.io/punkzhou-ip/`
+   `https://jonzhao819-del.github.io/wenan-IP/`
 
 `.nojekyll` 已经放好，GitHub 不会再用 Jekyll 处理这些文件。
 
